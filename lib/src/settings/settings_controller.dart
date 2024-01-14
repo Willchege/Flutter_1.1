@@ -30,4 +30,5 @@ class SettingsController with ChangeNotifier {
 
     await _settingsService.updateThemeMode(newThemeMode);
   }
+  
 }
